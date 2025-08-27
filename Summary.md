@@ -28,6 +28,7 @@ underwater or through a mountain).
 
 _Ethically, what are the pros and cons of using money as the edge weights to
 build an MST to choose BART tracks?_
+_Please use a stakeholder-value matrix to motivate your answer._
 
 ### Privacy [4 points]
 
@@ -38,6 +39,7 @@ entrance and exit station. This would require asking the Clipper Card company
 to give us the entrance and exit locations for each passenger.
 
 _How could we protect people's privacy while still using that data?_
+_Please use the table of our regular privacy questions to motivate your answer._
 
 ### Fairness [4 points]
 
@@ -51,6 +53,7 @@ those two stations?
 
 _How would you ensure that BART still services all communities, including
 those with less money?_
+_Please use the relevant parts of the stakeholder-value matrix and the privacy table to motivate your answer._
 
 ### Climate change [4 points]
 
