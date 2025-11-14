@@ -44,6 +44,9 @@ class Node(Generic[T]):
     def __str__(self) -> str:
         return str(self.data)
 
+    def __repr__(self) -> str:
+        return str(self)
+
     def __eq__(self, other: object) -> bool:
         if not isinstance(other, Node):
             return False
@@ -64,6 +67,9 @@ class Edge(Generic[T]):
 
     def __str__(self) -> str:
         return f"Edge({self.node1.data}, {self.node2.data}, {self.weight})"
+
+    def __repr__(self) -> str:
+        return str(self)
 
 
 class Graph(Generic[T]):
