@@ -51,7 +51,7 @@ After completing the milestone, you should see this when you run the program (fr
 
 This milestone is about the iterator, which is in the `class KruskalIterator` in `graph.py`:
 
-Specifically, you will need to replace the stub implementation of the `class KruskalIterator` with an implementation that provides the edges selected by Kruskal's Algorithm. The necessary data structures are specified in the constructor. You do not need to write tests.
+Specifically, you will need to replace the stub implementation of the `class KruskalIterator` with an implementation that provides the edges selected by Kruskal's Algorithm. The necessary data structures are specified in the constructor.
 
 You will also need to implement `find` and `union` in the `Node` class above (in `graph.py`).
 
@@ -73,7 +73,7 @@ You may want to modify the value of the constant `PAUSE_BETWEEN_EDGE_HIGHLIGHTIN
 ## Milestone 3: Display the Minimum Spanning Tree for the T (Boston's public transportation)
 
 For this milestone, you will need to find the places in the codebase to properly display a minimum spanning tree for Boston's public transportation (the T).
-- Just as the data for BART is in `data/BART.csv`, the data for the T is in `T.csv`. It was scraped from [wikipedia.org](https://en.wikipedia.org/wiki/List_of_MBTA_subway_stations).
+- Just as the data for BART is in `data/BART.csv`, the data for the T is in `data/T.csv`. It was scraped from [wikipedia.org](https://en.wikipedia.org/wiki/List_of_MBTA_subway_stations).
 - In order to make the display show the correct range of coordinates, you will need to change `MAX_LATITUDE`, `MIN_LATITUDE`, `MAX_LONGITUDE`, and `MIN_LONGITUDE` in `map_graphics.py`.
 
 ## Optional Milestones
@@ -90,15 +90,3 @@ Optional milestones should be made in a separate branch. One place you can learn
 1. Introduction to Git Commits
 2. Branching in Git
 
-## Scoring
-
-- Autograder: 60
-- Manual grading: 18
-  - Correctness
-    - final output
-    - `__next__()` implementation
-  - Style
-    - naming
-    - code duplication
-    - formatting
-- Summary.md: 22
